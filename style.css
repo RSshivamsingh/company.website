@@ -1,6 +1,13 @@
 .logo{
     text-align: center;
     padding-left: 1%;
+    border-radius:10%;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.logo:hover{
+    transform: translatey(-5px);
 }
 h1{
     display: inline;
@@ -26,6 +33,7 @@ h2,h3{
 }
 #box{
     background-color: rgba(57, 17, 17, 0.963);
+    border-radius:  10%;
 }
 #box2{
     background-color: rgba(57, 17, 17, 0.963);
@@ -53,30 +61,66 @@ h3,h2{
     border-style: dashed;
     border-color: rgb(71, 12, 12);
 }
-#bb{ 
-    
+.bb{ 
+    text-decoration:underline;
     background-color:rgb(71, 12, 12) ; 
     line-height: 40px; 
     color: darkgoldenrod;
+    padding-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    transition: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+.bb:hover{
+    
 }
 .bb1{
-    padding-LEFT: 5%;
+   
+    padding-LEFT: 0%;
     color: goldenrod;
-    margin-right: 40px; 
+    margin-right: 100px; 
+    transition: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
 }
+.bb1:hover{
+    background-color:goldenrod;
+    transform: translatey(-2px);
+    color: darkred;
+}
+
 .bb2{
-    
     padding: 3%;
     color: goldenrod;
     margin: 15px;
-    border:1px solid black;
-    background-color:rgb(44, 35, 35);
+    
+    border-top-left-radius:50% ;
+    transition-timing-function:ease;
+    transition-duration: 0.5s;
 }
-#big{padding-left:2%;}
-#video{text-align: center;}
-#pic{padding-left: 2%;
-    margin-right:200px;
+.bb2:hover{
+    transform: translateY(-30px);
 }
+.bb11{
+    display: inline;
+    transition: all;
+    transition-timing-function:ease;
+    transition-duration: 0.5s;
+}
+.bb11:hover{
+
+    transform: translateY(-30px);
+}
+#big{
+    padding-left:2%;
+    border-radius: 20% ;
+}
+.video{
+    text-align: center;
+}
+
 .box4{
     display: inline;
     position:fixed;
@@ -86,6 +130,17 @@ h3,h2{
     top:300px;
     left:93%; 
     font-style: italic;
+    transition-timing-function:ease;
+    transition-duration: 0.7s;
+}
+.box4:hover {
+    background-color: burlywood;
+    font-size: 20px;
+}
+.box5:hover{
+    background-color: burlywood;
+    font-size: 20px;
+    
 }
 .box5{
     position:fixed;
@@ -96,7 +151,8 @@ h3,h2{
     top: 275px;
     left:91.89%;   
     font-style: italic; 
-    
+    transition-timing-function:ease;
+    transition-duration: 0.7s;
 }
 .found{
     height: 40px;
@@ -115,25 +171,66 @@ h3,h2{
     text-align: center;
     font-size: large;
     text-decoration:underline;
-    
 }
 .msg{
     margin-left: 390px;
     text-align:center;
     width: 500px;
+    font-size:25PX;
 }
-.linkS{
-    display: flex;
+.links{
+    text-align: center;
+    
 }
 .social{
     width: 30px;
     height: 30px;
     text-align: center;
-    margin:0 10px;
-    padding:0;
+    margin-right:20px;
+    padding-left:0;
    text-decoration: none;
    color: #000;
    box-shadow: 0 5px 5px white;
    border-radius: 50%;
    background-color: white;
+   transition-timing-function:ease;
+    transition-duration: 1s;
+
+}
+.social:hover
+{
+    background-color: #000;
+    height: 38px;
+    width: 38px;
+    transform:rotate(360deg);
+}
+.photo3
+{
+    padding-right: 10px;
+    
+}
+.innerp{
+    display: inline;
+  
+}
+.innerpp{
+    padding-left: 30px;
+    margin: 10px;
+    border-radius: 20%;
+    transition-timing-function:ease;
+    transition-duration: 0.5s;
+}
+.innerpp:hover{
+        height: 200px;
+        width: 400px;
+}
+.foot{
+    text-align: center;
+}
+.last{
+    margin-left:20px ;
+    padding-left: 20px;
+}
+.lastline{
+    text-align: center;
 }
