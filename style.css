@@ -8,6 +8,7 @@
 }
 .logo:hover{
     transform: translatey(-5px);
+    border-radius: 50%;
 }
 h1{
     display: inline;
@@ -72,6 +73,7 @@ h3,h2{
     transition: all;
     transition-duration: 0.6s;
     transition-timing-function: ease;
+    border-radius: 2%;
 }
 .bb:hover{
     
@@ -95,13 +97,14 @@ h3,h2{
     padding: 3%;
     color: goldenrod;
     margin: 15px;
-    
-    border-top-left-radius:50% ;
+    border-radius:50% ;
     transition-timing-function:ease;
     transition-duration: 0.5s;
 }
 .bb2:hover{
     transform: translateY(-30px);
+    border-bottom: 9px solid brown;
+    background-color: rgb(211, 191, 156);
 }
 .bb11{
     display: inline;
@@ -115,7 +118,7 @@ h3,h2{
 }
 #big{
     padding-left:2%;
-    border-radius: 20% ;
+    border-radius: 5% ;
 }
 .video{
     text-align: center;
@@ -180,7 +183,8 @@ h3,h2{
 }
 .links{
     text-align: center;
-    
+    z-index: 9;
+    position:relative;
 }
 .social{
     width: 30px;
@@ -195,7 +199,7 @@ h3,h2{
    background-color: white;
    transition-timing-function:ease;
     transition-duration: 1s;
-
+    
 }
 .social:hover
 {
@@ -214,15 +218,16 @@ h3,h2{
   
 }
 .innerpp{
-    padding-left: 30px;
+    padding-left: 40px;
     margin: 10px;
     border-radius: 20%;
     transition-timing-function:ease;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
 }
 .innerpp:hover{
-        height: 200px;
-        width: 400px;
+        transform: translateY(-18px);
+        height: 180px;
+        width: 350px;
 }
 .foot{
     text-align: center;
